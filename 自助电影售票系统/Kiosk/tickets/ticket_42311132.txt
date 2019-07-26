@@ -1,0 +1,8 @@
+Date	2017-5-22
+Movie	LOGAN
+Screen	Screen 3
+Seat	A2
+Ticket ID	42311132
+Price	8.0
+Time	15:30
+Type	Child

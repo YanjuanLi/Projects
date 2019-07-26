@@ -1,0 +1,8 @@
+Date	2017-5-23
+Movie	KONG:_SKULL_ISLAND
+Screen	Screen 1
+Seat	A7
+Ticket ID	23412133
+Price	13.6
+Time	21:00
+Type	Student

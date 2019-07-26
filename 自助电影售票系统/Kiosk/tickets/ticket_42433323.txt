@@ -1,0 +1,8 @@
+Date	2017-5-26
+Movie	KONG:_SKULL_ISLAND
+Screen	Screen 1
+Seat	A3
+Ticket ID	42433323
+Price	16.0
+Time	15:30
+Type	Adult

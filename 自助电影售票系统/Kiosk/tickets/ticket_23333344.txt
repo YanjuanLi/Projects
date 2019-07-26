@@ -1,0 +1,8 @@
+Date	2017-5-24
+Movie	KONG:_SKULL_ISLAND
+Screen	Screen 1
+Seat	B3
+Ticket ID	23333344
+Price	12.8
+Time	15:30
+Type	Senior

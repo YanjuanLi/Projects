@@ -1,0 +1,8 @@
+Date	2017-5-21
+Movie	LOGAN
+Screen	Screen 3
+Seat	C3
+Ticket ID	21324232
+Price	16.0
+Time	18:00
+Type	Adult

@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri May 26 04:01:28 CST 2017
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=C\:\\Users\\KaruBIN\\Desktop\\SE_Cinema.jar
+manifest.mergeall=true
+manifest.mainclass=com.test.seat.MainClass
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=

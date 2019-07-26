@@ -1,0 +1,8 @@
+Date	2017-5-23
+Movie	LOGAN
+Screen	Screen 3
+Seat	C3
+Ticket ID	44132422
+Price	12.8
+Time	15:30
+Type	Senior

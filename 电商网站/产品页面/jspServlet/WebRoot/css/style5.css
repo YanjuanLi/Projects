@@ -1,0 +1,645 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body{
+	font-family: 'Josefin Sans', sans-serif !important;
+	background:url(../images/banner.png) 0px 0px;
+}
+/*-- main --*/
+.main{
+	width:55%;
+    margin: 0 auto;
+	padding:4em 0;
+}
+.main h1{
+	text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+    margin:0 0 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.main-grid-left,.main-grid-left1{
+	min-height:571px;
+}
+.main-grid-left{
+	float:left;
+	width:35%;
+	background:url(../images/woodBox1.jpg) no-repeat -60px 0px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
+.main-grid-left1{
+	background:url(../images/2.jpg) no-repeat -50px 0px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
+.main-grid-right{
+	float:right;
+	width:65%;
+}
+.main-grid-right1{
+	padding:2em 2em 4em;
+	background:#fff;
+}
+.main-grid-right1-left{
+	float:left;
+}
+.main-grid-right1-left h2{
+	font-size:2em;
+	color:#d13350;
+	font-weight:600;
+	margin:0;
+}
+.main-grid-right1-left p{
+	color:#000;
+	font-size:1em;
+	margin:0;
+	padding:0 0 1em;
+	line-height:1.8em;
+	font-weight:600;
+	position:relative;
+	font-family: 'Cabin', sans-serif;
+}
+.main-grid-right1-right{
+	float:right;
+}
+.main-grid-right1-right p{
+	color:#999;
+	font-size:2em;
+	margin:0;
+}
+.main-grid-right1-left p:after{
+	content:'';
+	position:absolute;
+	bottom:0%;
+	left:0%;
+	width:50%;
+	height:2px;
+	background:#cccccc;
+}
+.bottom{
+	margin:2em 0 3em;
+	font-family: 'Cabin', sans-serif;
+}
+.bottom p{
+	font-size:1em;
+	color:#999;
+	margin:0 0 1em;
+	line-height:1.8em;
+}
+.bottom-left{
+	float:left;
+	width:50%;
+}
+.bottom-left a{
+	padding:12px 30px;
+    border: 2px solid #C0C0C0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #000;
+    font-weight: 600;
+    border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	-ms-border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bottom-left1{
+	text-align:right;
+}
+.bottom-left1 a{
+	padding: 12px 70px 12px 75px;
+    background: url(../images/1.png) no-repeat 35px 9px #c60024;
+    color: #fff;
+    border: 2px solid #c60024;
+}
+.bottom-left a:hover{
+	border: 2px solid #c60024;
+	color:#fff;
+	background:#c60024;
+}
+.bottom-left1 a:hover{
+	border: 2px solid #C0C0C0;
+	color:#fff;
+	background: url(../images/1.png) no-repeat 35px 9px #C0C0C0;
+}
+.logo{
+	border-top: 2px solid #c60024;
+	padding:2.5em 0;
+	text-align:center;
+	background:#e2e2e2;
+	border-bottom:8px solid rgba(185, 185, 185, 0.51);
+}
+.main-grid-left-grids {
+    width: 80%;
+    margin: 25em auto 0;
+}
+.main-grid-left-grid-left{
+	float:left;
+	width: 104px;
+    height: 104px;
+    border: 3px solid #cecdcd;
+	border-radius:100%;
+}
+.main-grid-left-grid-left:nth-child(2){
+	margin-left:1.4em;
+}
+.main-grid-left-grid-left p{
+	font-size:1.5em;
+	color:#999;
+	margin:0;
+	padding: 1em 0 0;
+	text-align:center;
+}
+.main-grid-act{
+	background:#c60024;
+	border:3px solid #c60024;
+}
+.main-grid-act p {
+    color: #fff;
+}
+.main-grid-left-grid-left p span{
+	display:block;
+}
+.logo img {
+    margin: 0 auto;
+	max-width: 25%;
+}
+.footer{
+	padding:3em 0 0;
+	text-align:center;
+	position:relative;
+}
+.footer:after{
+	content: '';
+    background: url(../images/4.png) no-repeat 0px 0px;
+    display: block;
+    width: 923px;
+    height: 20px;
+    position: absolute;
+    bottom: 57px;
+    left: -5%;
+    background-size: 100%;
+}
+.footer p{
+	font-size:1em;
+	color:#fff;
+	margin:0;
+	line-height:1.8em;
+	font-family: 'Cabin', sans-serif;
+}
+.footer p a{
+	color:#C60024;
+}
+.footer p a:hover{
+	color:#fff;
+}
+/*-- start-responsive-design --*/
+@media all and (max-width:1680px) {
+	.main-grid-left{
+		min-height:547px;
+	}
+}
+@media all and (max-width:1600px) {
+	.main-grid-left{
+		min-height:570px;
+	}
+}
+@media (max-width:1440px){
+	.main {
+		width: 70%;
+	}
+	.main-grid-left {
+		min-height: 554px;
+	}
+	.main-grid-left {
+		background: url(../images/woodBox1.jpg) no-repeat -30px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+	}
+	.main-grid-left1{
+		background:url(../images/2.jpg) no-repeat -22px 0px;
+		background-size:cover;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		-ms-background-size:cover;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 1060px;
+		background-size: 100%;
+	}
+}
+@media (max-width: 1366px){
+	.main-grid-left {
+		min-height: 551px;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 1010px;
+		background-size: 100%;
+	}
+}
+@media (max-width: 1280px){
+	.main-grid-left {
+		min-height: 572px;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 945px;
+		background-size: 100%;
+	}
+}
+@media (max-width: 1024px){
+	.main {
+		width: 85%;
+	}
+	.main-grid-left {
+		background: url(../images/woodBox1.jpg) no-repeat -80px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+	}
+	.main-grid-left1 {
+		background: url(../images/2.jpg) no-repeat -72px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+	}
+	.main-grid-left {
+		min-height: 571px;
+	}
+}
+@media (max-width:768px){
+	.main-grid-left {
+		background: url(../images/woodBox1.jpg) no-repeat -110px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+	}
+	.main-grid-left1 {
+		background: url(../images/2.jpg) no-repeat -92px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+	}
+	.main-grid-left-grid-left p {
+		font-size: 1.1em;
+	}
+	.main-grid-left-grid-left {
+		width: 85px;
+		height: 85px;
+	}
+	.main-grid-left-grids {
+		width: 90%;
+	}
+	.bottom-left a {
+		padding: 12px 15px;
+		font-size: 14px;
+	}
+	.bottom-left1 a:hover {
+		background: url(../images/1.png) no-repeat 25px 9px #C0C0C0;
+	}
+	.bottom-left1 a {
+		padding: 12px 40px 12px 59px;
+		background: url(../images/1.png) no-repeat 25px 9px #c60024;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 690px;
+		background-size: 100%;
+	}
+	.main-grid-left {
+		min-height: 574px;
+	}
+}
+@media (max-width: 736px){
+	.main-grid-left-grid-left {
+		width: 79px;
+		height: 79px;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 655px;
+		background-size: 100%;
+	}
+}
+@media (max-width: 667px){
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 595px;
+		background-size: 100%;
+	}
+	.bottom-left a {
+		padding: 10px 7px;
+		font-size: 11px;
+		border: 1px solid #C0C0C0;
+	}
+	.bottom-left {
+		width: 43%;
+	}
+	.bottom-left1 a {
+		padding: 12px 16px 12px 58px;
+		background: url(../images/1.png) no-repeat 25px 9px #c60024;
+		background-size: 16%;
+		border: 2px solid #c60024 !important;
+	}
+	.bottom {
+		margin: 2em 0 2em;
+	}
+	.bottom-left1 a:hover {
+		background: url(../images/1.png) no-repeat 25px 9px #C0C0C0;
+		background-size: 16%;
+	}
+	.main-grid-left-grid-left {
+		width: 72px;
+		height: 72px;
+	}
+	.main-grid-left {
+		min-height: 577px;
+	}
+}
+@media (max-width: 640px){
+	.main-grid-left,.main-grid-right {
+		float: none;
+		width: 100%;
+	}
+	.main-grid-left-grid-left {
+		width: 125px;
+		height: 125px;
+	}
+	.main-grid-left-grids {
+		width: 54%;
+		margin: 0 auto;
+		padding: 25em 0 0 0;
+	}
+	.main-grid-left {
+		background: url(../images/woodBox1.jpg) no-repeat 0px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+	}
+	.main-grid-left1 {
+		background: url(../images/2.jpg) no-repeat 0px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+	}
+	.main-grid-left-grid-left p {
+		font-size: 1.6em;
+	}
+	.main{
+		padding: 3em 0;
+	}
+	.main h1 {
+		font-size: 2em !important;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 565px;
+		background-size: 100%;
+	}
+}
+@media (max-width: 600px){
+	.main-grid-left-grids {
+		width: 48%;
+		padding: 20em 0 0 0;
+	}
+	.main-grid-left {
+		background: url(../images/woodBox1.jpg) no-repeat 75px 0px;
+		background-size: 70%;
+	}
+	.main-grid-left1 {
+		background: url(../images/2.jpg) no-repeat 75px 0px;
+		background-size: 70%;
+	}
+	.main-grid-left-grid-left p {
+		font-size: 1.2em;
+	}
+	.main-grid-left-grid-left {
+		width: 100px;
+		height: 100px;
+	}
+	.main-grid-left {
+		min-height: 450px;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 530px;
+		background-size: 100%;
+		bottom: 52px;
+	}
+	.footer {
+		padding: 1em 0 0;
+	}
+}
+@media (max-width:568px){
+	.main-grid-left-grids {
+		width: 51%;
+		padding: 18em 0 0 0;
+	}
+	.main-grid-right1 {
+		padding: 1em 2em 3em;
+	}
+	.main-grid-left {
+		min-height: 424px;
+	}
+}
+@media (max-width:480px){
+	.main {
+		padding: 2em 0;
+	}
+	.main h1 {
+		font-size: 1.6em !important;
+	}
+	.main-grid-left-grid-left p {
+		font-size: 1em;
+	}
+	.main-grid-left-grid-left {
+		width: 80px;
+		height: 80px;
+	}
+	.main-grid-left-grids {
+		width:50%;
+		padding: 16em 0 0 0;
+	}
+	.main-grid-left {
+		background: url(../images/woodBox1.jpg) no-repeat 54px 0px;
+		background-size: 70%;
+	}
+	.main-grid-left1 {
+		background: url(../images/2.jpg) no-repeat 63px 0px;
+		background-size: 70%;
+	}
+	.main-grid-right1-left h2 {
+		font-size: 1.7em;
+	}
+	.main-grid-left {
+		min-height: 356px;
+	}
+	.bottom {
+		margin: 1.5em 0 2em;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 420px;
+		background-size: 100%;
+	}
+}
+@media (max-width:414px){
+	.main-grid-left-grid-left:nth-child(2) {
+		margin-left: 1em;
+	}
+	.main-grid-left-grids {
+		width: 51%;
+		padding: 13em 0 0 0;
+	}
+	.main-grid-left {
+		min-height: 303px;
+	}
+	.main {
+		width: 95%;
+	}
+	.main-grid-right1-left h2 {
+		font-size: 1.5em;
+	}
+	.main-grid-right1-right p {
+		font-size: 1.5em;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 405px;
+		background-size: 100%;
+	}
+}
+@media (max-width:384px){
+	.main-grid-left{
+		background: url(../images/woodBox1.jpg) no-repeat 0px 0px;
+		background-size: 100%;
+	}
+	.main-grid-left1 {
+		background: url(../images/2.jpg) no-repeat 0px 0px;
+		background-size: 100%;
+	}
+	.main-grid-left-grids {
+		width: 55%;
+		padding: 12em 0 0 0;
+	}
+	.main-grid-right1 {
+		padding: 1em 1.5em 3em;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 370px;
+		background-size: 100%;
+	}
+	.bottom-left1 a {
+		padding: 12px 16px 12px 53px;
+	}
+}
+@media (max-width: 375px){
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 362px;
+		background-size: 100%;
+	}
+}
+@media (max-width: 320px){
+	.main h1 {
+		font-size: 1.2em !important;
+		margin: 0 0 1em;
+	}
+	.main-grid-left-grids {
+		width: 66%;
+		padding: 11em 0 0 0;
+	}
+	.main-grid-left {
+		min-height: 290px;
+	}
+	.main-grid-right1-left,.main-grid-right1-right {
+		float: none;
+	}
+	.main-grid-right1-left h2 {
+		font-size: 1.2em;
+	}
+	.main-grid-right1-left p {
+		font-size: 14px;
+	}
+	.main-grid-right1-right {
+		margin: 1em 0 0;
+	}
+	.bottom p {
+		font-size: 14px;
+	}
+	.bottom {
+		margin: 1em 0 2em;
+	}
+	.bottom-left {
+		width: 100%;
+		float: none;
+	}
+	.bottom-left1 {
+		text-align: left;
+		margin: 2em 0 0;
+	}
+	.footer p {
+		font-size: 13px;
+	}
+	.footer:after {
+		background: url(../images/4.png) no-repeat 0px 0px;
+		width: 303px;
+		background-size: 100%;
+		bottom: 42px;
+	}
+}

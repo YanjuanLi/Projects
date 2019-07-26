@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clipChildren="false"
+>
+
+    <com.example.sharelift.MyViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"/>
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="3dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/theme_bg_color"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/dd2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/bottom_main_selector" />
+
+             
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/dd3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/bottom_notice_selector" />
+
+               
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/dd4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/bottom_usercenter_selector" />
+
+               
+            </RelativeLayout>
+        </LinearLayout>
+
+
+</RelativeLayout>
